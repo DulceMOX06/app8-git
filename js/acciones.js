@@ -18,7 +18,7 @@ function onDeviceReady(){
 			maximumAge: 3600000
 		}
 	
-	var watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
+	var watchlD = navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 	
 	function onSuccess(position){
 		
