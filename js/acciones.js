@@ -1,7 +1,7 @@
 // JavaScript Document
 
-$(document).ready(function(e) {
-document.addEventListener("deviceready", onDeviceReady, false);
+$(document).ready(function (e){
+document.addEventListener("deviceready", onDeviceReady,false);
 
 });
 
@@ -14,7 +14,7 @@ function onDeviceReady(){
 
 	function getPosition(){
 		var options = {
-			anableHighAccuracy :true,
+			enableHighAccuracy :true,
 			maximumAge: 3600000
 		}
 	
